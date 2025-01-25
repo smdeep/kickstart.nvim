@@ -867,7 +867,8 @@ require('lazy').setup({
       vim.cmd.colorscheme 'solarized-osaka'
 
       -- You can configure highlights by doing something like:
-      vim.cmd.hi 'Comment gui=none'
+      -- vim.cmd.hi 'Comment gui=none'
+      -- vim.cmd.hi 'Comment gui=italic'
     end,
   },
 
