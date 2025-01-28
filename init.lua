@@ -8,7 +8,7 @@
 ========         |.-""""""""""""""""""-.|   |-----|          ========
 ========         ||                    ||   | === |          ========
 ========         ||   nvim-kick-new    ||   |-----|          ========
-========         ||                    ||   | === |          ========
+========         ||        nvk         ||   | === |          ========
 ========         ||                    ||   |-----|          ========
 ========         ||:Tutor              ||   |:::::|          ========
 ========         |'-..................-'|   |____o|          ========
@@ -91,6 +91,7 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 -- Adding my keymaps.lua file from core directory
 require 'custom.core.keymaps'
+require 'custom.core.options'
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = true
 
