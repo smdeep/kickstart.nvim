@@ -4,8 +4,6 @@ return {
   config = function()
     require('dashboard').setup {
       -- config
-      -- theme = 'doom',
-      shortcut_type = 'number',
     }
   end,
   dependencies = { { 'nvim-tree/nvim-web-devicons' } },
