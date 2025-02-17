@@ -2,7 +2,11 @@ local keymap = vim.keymap -- for conciseness
 
 ---------------------
 -- General Keymaps -------------------
-
+keymap.set('n', '<C-d>', '<C-d>zz')
+keymap.set('n', '<C-u>', '<C-u>zz')
+keymap.set('n', '<C-f>', '<C-f>zz')
+keymap.set('n', '<C-b>', '<C-b>zz')
+keymap.set('n', 'Y', 'yy')
 -- use jk to exit insert mode
 keymap.set('i', 'jk', '<ESC>', { desc = 'Exit insert mode with jk' })
 
